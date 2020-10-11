@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+/* title section */
+
+#title button {
+  margin:10px;
+}
+
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+}
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+.tilt {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features section */
+
+#features {
+  background-color: #ffffff;
+  position: relative;
+  margin: 0;
+}
+
+.icon:hover {
+  color: #ff4c68 !important;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.feat {
+  padding: 10px;
+  margin:auto
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+/* pricing section */
+.card {
+}
+
+#pricing button {
+  width: 100%;
+}
+.pricing-title {
+  text-align: left;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* media queries */
+@media (max-width: 992px) {
+  .tilt {
+    width: 90%;
+    position: static;
+    transform: rotate(0);
+    padding: 40px;
+    margin: auto;
+  }
+
+  .container-fluid {
+    text-align: center;
+    padding: 7% 15%;
+  }
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  line-height: 1.5;
+}
+
+#cta h3 {
+  padding-bottom: 30px;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+#cta button {
+  margin: 15px;
+}
+
+/* footer section */
+#footer p {
+  color: #8f8f8f;
+  padding: 5px;
+}
+
+#footer {
+}
+
+#footer span {
+  padding: 5px;
+}
